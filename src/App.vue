@@ -1,5 +1,8 @@
 <template>
-    {{ date }}
+    <div>
+        <p class="text-9xl grid place-content-center h-screen dark:bg-neutral-900 dark:text-neutral-50"> {{ date }}
+        </p>
+    </div>
 </template>
 
 <script setup>
@@ -15,3 +18,4 @@ onUnmounted(() => {
     clearInterval(intervalId);
 });
 </script>
+
