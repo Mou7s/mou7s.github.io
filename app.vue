@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="grid place-content-center h-screen">
     <h1 class="text-9xl">{{ date }}</h1>
