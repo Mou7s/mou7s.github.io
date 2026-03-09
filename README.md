@@ -2,7 +2,7 @@
 
 这是一个极简静态站点仓库，唯一用途是将首页访问重定向到：
 
-- `https://linktr.ee/mou7s`
+- `https://mou7s.com`
 
 ## 当前结构
 
@@ -25,7 +25,12 @@
 
 ## 修改方式
 
-如果只需要更换目标地址，直接编辑 `index.html` 中的 Linktree 链接即可。
+如果只需要更换目标地址，直接编辑 `index.html` 中的目标链接即可，并确保以下位置保持一致：
+
+- `meta refresh`
+- `link rel="canonical"`
+- 页面正文中的备用链接
+- `window.location.replace(...)`
 
 ## 许可证
 
